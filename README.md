@@ -15,11 +15,11 @@ El sistema captura el flujo de video desde la cámara web y procesa los fotogram
 
 | Gesto Detectado | Comando Serial | Acción en ESP32 / Salida |
 | :--- | :---: | :--- |
-| **Closed_Fist** (Puño Cerrado) | `A` | **30% de Intensidad** (LED Amarillo)[cite: 2] |
-| **Victory** (Signo de Victoria / V) | `B` | **70% de Intensidad** (LED Azul)[cite: 2] |
-| **Open_Palm** (Palma Abierta) | `C` | **100% de Intensidad** (LED Rojo)[cite: 2] |
-| **Thumb_Down** (Pulgar Abajo) | `D` | **Primera Interrupción:** Secuencia de luces (Modo 1)[cite: 2] |
-| **Thumb_Up** (Pulgar Arriba) | `E` | **Segunda Interrupción:** Secuencia de luces (Modo 2)[cite: 2] |
+|  (Puño Cerrado) | `A` | **30% de Intensidad** (LED Amarillo)[cite: 2] |
+|  (Signo de Victoria / V) | `B` | **70% de Intensidad** (LED Azul)[cite: 2] |
+|  (Palma Abierta) | `C` | **100% de Intensidad** (LED Rojo)[cite: 2] |
+|  (Pulgar Abajo) | `D` | **Primera Interrupción:** Secuencia de luces (Modo 1)[cite: 2] |
+|  (Pulgar Arriba) | `E` | **Segunda Interrupción:** Secuencia de luces (Modo 2)[cite: 2] |
 
 ---
 
@@ -49,11 +49,3 @@ El script `main.py` realiza las siguientes operaciones:
 4. **Mapeo y Salida:** Extrae el gesto con mayor nivel de confianza, lo mapea mediante el diccionario `gesture_map` e imprime el comando a enviar[cite: 2].
 5. **Interfaz Gráfica:** Superpone el texto del gesto y comando detectado en la ventana de visualización.
 
----
-
-## 🚀 Instalación y Ejecución
-
-1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
-   cd tu-repositorio
