@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Modelos/pesos grandes generados
+*.h5
+*.onnx
+
+# Salidas de prueba
+output/
+*.avi
+*.mp4
+
+# Sistema operativo / editores
+Thumbs.db
+desktop.ini
+.vscode/ipch/
+.vscode/*.log
