@@ -26,7 +26,7 @@ El sistema captura el flujo de video desde la cámara web y procesa los fotogram
 ## 🛠️ Tecnologías y Componentes
 
 ### Software
-* **Python 3.x**
+* **Python 3.11
 * **OpenCV (`cv2`):** Captura de video, procesamiento de fotogramas y despliegue gráfico.
 * **MediaPipe Tasks (`mediapipe`):** Detección de la malla de la mano (21 puntos de referencia) y clasificación del gesto usando `gesture_recognizer.task`[cite: 2].
 * **PySerial:** Transmisión de comandos desde Python hacia el puerto serie del ESP32.
